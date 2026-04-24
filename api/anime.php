@@ -67,7 +67,7 @@ if ($page == ""){
 <body data-page="page_anime">
     <div id="sidebar_menu_bg"></div>
     <div id="wrapper" data-page="page_home">
-        <?php include('./_php/header.php')?>
+        <?php include('_php/header.php')?>
         <div class="clearfix"></div>
         <div id="main-wrapper">
             <div class="container">
@@ -158,11 +158,11 @@ if ($page == ""){
                     
                     <div class="clearfix"></div>
                 </div>
-                <?php include('./_php/sidenav.php'); ?>
+                <?php include('_php/sidenav.php'); ?>
                 <div class="clearfix"></div>
             </div>
         </div>
-        <?php include('./_php/footer.php'); ?>
+        <?php include('_php/footer.php'); ?>
         <div id="mask-overlay"></div>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         

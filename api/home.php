@@ -66,12 +66,12 @@ require('_config.php');
 <body data-page="page_home">
     <div id="sidebar_menu_bg"></div>
     <div id="wrapper" data-page="page_home">
-        <?php include('./_php/header.php');?>
+        <?php include('_php/header.php');?>
         <div class="clearfix"></div>
         <div class="deslide-wrap">
             <div class="container" style="max-width:100%!important;width:100%!important;">
                 <div id="slider" class="swiper-container-initialized swiper-container-horizontal">
-                    <?php include('./_php/slidebar.php'); ?>
+                    <?php include('_php/slidebar.php'); ?>
                     <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
                     <div class="swiper-navigation">
                         <div class="swiper-button swiper-button-next" tabindex="0" role="button"
@@ -85,7 +85,7 @@ require('_config.php');
             </div>
         </div>
 
-        <?php include('./_php/trending.php')?>
+        <?php include('_php/trending.php')?>
         <div class="share-buttons share-buttons-home">
             <div class="container">
                 <script type="text/javascript"
@@ -230,11 +230,11 @@ require('_config.php');
                     </section>
                     <div class="clearfix"></div>
                 </div>
-                <?php include('./_php/sidenav.php'); ?>
+                <?php include('_php/sidenav.php'); ?>
                 <div class="clearfix"></div>
             </div>
         </div>
-        <?php include('./_php/footer.php'); ?>
+        <?php include('_php/footer.php'); ?>
         <div id="mask-overlay"></div>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
