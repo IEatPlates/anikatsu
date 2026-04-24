@@ -1,5 +1,5 @@
 <?php 
-require('./_config.php');
+require('../api/_config.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
