@@ -1,5 +1,5 @@
 <?php 
-include './_config.php'; 
+include '_config.php'; 
 $page = rand(1,86);
 $select = rand(1,120);
 

@@ -1,5 +1,5 @@
 <?php 
-require_once('./_config.php');
+require_once('_config.php');
 $parts=parse_url($_SERVER['REQUEST_URI']); 
 $page_url=explode('/', $parts['path']);
 $url = $page_url[count($page_url)-1];
