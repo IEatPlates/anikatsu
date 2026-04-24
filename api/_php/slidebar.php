@@ -3,7 +3,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-8745.jpg"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-8745.jpg"
                         alt="One Piece">
                 </div>
             </div>
@@ -51,7 +51,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-11168.jpg"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-11168.jpg"
                         alt="Chainsaw Man">
                 </div>
             </div>
@@ -101,7 +101,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-11156.jpg"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-11156.jpg"
                         alt="Blue Lock">
                 </div>
             </div>
@@ -151,7 +151,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-11166.jpg"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-11166.jpg"
                         alt="Bleach: Sennen Kessen-hen">
                 </div>
             </div>
@@ -192,7 +192,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-10776.jpg"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-10776.jpg"
                         alt="Spy x Family Part 2">
                 </div>
             </div>
@@ -228,7 +228,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-11107.png"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-11107.png"
                         alt="Boku no Hero Academia 6th Season">
                 </div>
             </div>
@@ -265,7 +265,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-11135.jpg"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-11135.jpg"
                         alt="Mob Psycho 100 III">
                 </div>
             </div>
@@ -301,7 +301,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-8533.jpg"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-8533.jpg"
                         alt="Black Clover (TV)">
                 </div>
             </div>
@@ -349,7 +349,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-5832.jpg"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-5832.jpg"
                         alt="Naruto Shippuden">
                 </div>
             </div>
@@ -398,7 +398,7 @@
         <div class="deslide-item">
             <div class="deslide-cover">
                 <div class="deslide-cover-img">
-                    <img class="film-poster-img lazyload" data-src="<?=$websiteUrl?>/files/slider/slider-8635.jpg"
+                    <img class="film-poster-img lazyload" data-src="<?=$websiteUri?>/files/slider/slider-8635.jpg"
                         alt="Boruto: Naruto Next Generations">
                 </div>
             </div>

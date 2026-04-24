@@ -48,9 +48,9 @@ if ($page == ""){
         type="text/css">
     <link rel="shortcut icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>?v=<?=$version?>" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>?v=<?=$version?>" />
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/style.css?v=<?=$version?>">
+    <link rel="stylesheet" href="<?=$websiteUri?>/files/css/style.css?v=<?=$version?>">
 
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/min.css?v=<?=$version?>?v=<?=$version?>">
+    <link rel="stylesheet" href="<?=$websiteUri?>/files/css/min.css?v=<?=$version?>?v=<?=$version?>">
     <script type="text/javascript">
     setTimeout(function() {
         var wpse326013 = document.createElement('link');
@@ -119,7 +119,7 @@ if ($page == ""){
                                             <div class="tick rtl">
                                             </div>
                                             <img class="film-poster-img lazyload" data-src="<?=$search['img_url']?>"
-                                                src="<?=$websiteUrl?>/files/images/no_poster.jpg"
+                                                src="<?=$websiteUri?>/files/images/no_poster.jpg"
                                                 alt="<?=$search['name']?>">
                                             <a class="film-poster-ahref" href="/anime/<?=$search['anime_id']?>"
                                                 title="<?=$search['name']?>" data-jname="<?=$search['name']?>"><i
@@ -195,12 +195,12 @@ if ($page == ""){
         <script type="text/javascript"
             src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js?v=<?=$version?>"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/app.js?v=<?=$version?>"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/comman.js?v=<?=$version?>"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/movie.js?v=<?=$version?>"></script>
-        <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/jquery-ui.css?v=<?=$version?>">
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/app.js?v=<?=$version?>"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/comman.js?v=<?=$version?>"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/movie.js?v=<?=$version?>"></script>
+        <link rel="stylesheet" href="<?=$websiteUri?>/files/css/jquery-ui.css?v=<?=$version?>">
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js?v=<?=$version?>"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/function.js?v=<?=$version?>"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/function.js?v=<?=$version?>"></script>
 
         <div style="display:none;">
         </div>

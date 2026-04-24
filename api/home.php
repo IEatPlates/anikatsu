@@ -36,8 +36,8 @@ require('_config.php');
     <meta name="theme-color" content="#202125">
     <link rel="shortcut icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>" />
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/style.css?v=<?=$version?>">
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/min.css?v=<?=$version?>">
+    <link rel="stylesheet" href="<?=$websiteUri?>/files/css/style.css?v=<?=$version?>">
+    <link rel="stylesheet" href="<?=$websiteUri?>/files/css/min.css?v=<?=$version?>">
     <script type="text/javascript">
     setTimeout(function() {
         var wpse326013 = document.createElement('link');
@@ -139,7 +139,7 @@ require('_config.php');
                                             </div>
                                             <img class="film-poster-img lazyload"
                                                 data-src="<?=$recentRelease['imgUrl']?>"
-                                                src="<?=$websiteUrl?>/files/images/no_poster.jpg" alt="<?=$recentRelease['name']?>">
+                                                src="<?=$websiteUri?>/files/images/no_poster.jpg" alt="<?=$recentRelease['name']?>">
                                             <a class="film-poster-ahref" href="/watch/<?=$recentRelease['episodeId']?>"
                                                 title="<?=$recentRelease['name']?>"
                                                 data-jname="<?=$recentRelease['name']?>"><i class="fas fa-play"></i></a>
@@ -200,7 +200,7 @@ require('_config.php');
                                             </div>
                                             <img class="film-poster-img lazyload"
                                                 data-src="<?=$recentReleaseDub['imgUrl']?>"
-                                                src="<?=$websiteUrl?>/files/images/no_poster.jpg"
+                                                src="<?=$websiteUri?>/files/images/no_poster.jpg"
                                                 alt="<?=$recentReleaseDub['imgUrl']?>">
                                             <a class="film-poster-ahref"
                                                 href="/watch/<?=$recentReleaseDub['episodeId']?>"
@@ -241,12 +241,12 @@ require('_config.php');
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js">
         </script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/app.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/comman.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/movie.js"></script>
-        <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/jquery-ui.css">
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/app.js"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/comman.js"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/movie.js"></script>
+        <link rel="stylesheet" href="<?=$websiteUri?>/files/css/jquery-ui.css">
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/function.js"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/function.js"></script>
     </div>
 </body>
 

@@ -1,9 +1,10 @@
 <?php 
 
-$websiteTitle = "AniKatsu"; // Website Name
+$websiteTitle = "Animelol"; // Website Name
 $websiteUrl = "//animelol.vercel.app/api";  // Website URL
 $websiteLogo = $websiteUrl . "/files/images/logo.png?v=2"; // Logo
 $contactEmail = "xyz@gmail.com"; // Contact Email
+$websiteUri = "//animelol.vercel.app";
 
 $version = "0.3";
 

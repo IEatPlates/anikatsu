@@ -50,8 +50,8 @@ $episodelist = $getAnime['episode_id'];
         type="text/css">
     <link rel="shortcut icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>" />
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/style.css?v=<?=$version?>">
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/min.css?v=<?=$version?>">
+    <link rel="stylesheet" href="<?=$websiteUri?>/files/css/style.css?v=<?=$version?>">
+    <link rel="stylesheet" href="<?=$websiteUri?>/files/css/min.css?v=<?=$version?>">
 </head>
 
 <body data-page="movie_watch">
@@ -65,7 +65,7 @@ $episodelist = $getAnime['episode_id'];
                     <div class="container">
                         <div class="anis-cover-wrap">
                             <div class="anis-cover"
-                                style="background-image: url('<?=$websiteUrl?>/files/images/banner.webp')">
+                                style="background-image: url('<?=$websiteUri?>/files/images/banner.webp')">
                             </div>
                         </div>
                         <div class="anis-watch-wrap">
@@ -322,12 +322,12 @@ $episodelist = $getAnime['episode_id'];
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js">
         </script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/app.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/comman.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/movie.js"></script>
-        <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/jquery-ui.css">
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/app.js"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/comman.js"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/movie.js"></script>
+        <link rel="stylesheet" href="<?=$websiteUri?>/files/css/jquery-ui.css">
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/function.js"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/function.js"></script>
         <script type="text/javascript">
         $(".btn-server").click(function() {
             $(".btn-server").removeClass("active");

@@ -37,8 +37,8 @@ if ($page == ""){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" type="text/css">
     <link rel="shortcut icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>" />
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/style.css?v=<?=$version?>">
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/min.css?v=<?=$version?>">
+    <link rel="stylesheet" href="<?=$websiteUri?>/files/css/style.css?v=<?=$version?>">
+    <link rel="stylesheet" href="<?=$websiteUri?>/files/css/min.css?v=<?=$version?>">
     <script type="text/javascript">
         setTimeout(function () {
             var wpse326013 = document.createElement('link');
@@ -95,7 +95,7 @@ if ($page == ""){
                                             </div>
                                             <img class="film-poster-img lazyload"
                                                 data-src="<?=$subbed['imgUrl']?>"
-                                                src="<?=$websiteUrl?>/files/images/no_poster.jpg"
+                                                src="<?=$websiteUri?>/files/images/no_poster.jpg"
                                                 alt="<?=$subbed['name']?>">
                                             <a class="film-poster-ahref"
                                                 href="/watch/<?=$subbed['episodeId']?>"
@@ -173,12 +173,12 @@ if ($page == ""){
         
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/app.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/comman.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/subbed.js"></script>
-        <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/jquery-ui.css">
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/app.js"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/comman.js"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/subbed.js"></script>
+        <link rel="stylesheet" href="<?=$websiteUri?>/files/css/jquery-ui.css">
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script type="text/javascript" src="<?=$websiteUrl?>/files/js/function.js"></script>
+        <script type="text/javascript" src="<?=$websiteUri?>/files/js/function.js"></script>
 
         <div style="display:none;">
         </div>

@@ -28,7 +28,7 @@ require('_config.php');
     <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css?v=<?=$version?>">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css?v=<?=$version?>">
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/home.css?v=<?=$version?>?v=0.5">
+    <link rel="stylesheet" href="<?=$websiteUri?>/files/css/home.css?v=<?=$version?>?v=0.5">
     <link rel="manifest" href="manifest.json">
 </head>
 <script>

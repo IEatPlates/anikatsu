@@ -23,7 +23,7 @@
                                             </div>
                                             <img class="film-poster-img lazyload"
                                                 data-src="<?=$recentRelease['imgUrl']?>"
-                                                src="<?=$websiteUrl?>/files/images/no_poster.jpg"
+                                                src="<?=$websiteUri?>/files/images/no_poster.jpg"
                                                 alt="<?=$recentRelease['name']?>">
                                             <a class="film-poster-ahref"
                                                 href="/watch/<?=$recentRelease['episodeId']?>"
